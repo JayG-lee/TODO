@@ -39,7 +39,7 @@
 
   - (BACKLOG) [HDFS 저장소 계정을 아무거나 입력해도 접속가능함](http://jira.nexrcorp.com/browse/CON-4119)
 
-- JDBC 저장소 접속 테스트
+- (리뷰 진행 중)JDBC 저장소 접속 테스트
 
   - (BACKLOG) [존재하지 않는 스키마를 입력해도 접속가능함](http://jira.nexrcorp.com/browse/CON-3959)
 
