@@ -5,19 +5,17 @@
 ### 진행 중
 
 #### 테이블 매니저
-- (리뷰 진행 중)로컬에서 HDFS에 파일 업로드(200M 제한)
 
-  - (BACKLOG) [동일한 이름의 파일을 업로드할 때 엎어치기 됨](http://jira.nexrcorp.com/browse/CON-3898)
+- (리뷰 진행 중)테이블 목록 조회
+
+  - (BACKLOG) [일반 사용자 계정이 해당 스키마에 권한이 있음에도 불구하고 노트북에서 생성한 테이블이 보이지 않음](http://jira.nexrcorp.com/browse/CON-3896)
+
 
 #### 환경설정 및 현황
 
 ### BUG
 
 #### 테이블 매니저
-
-- 테이블 목록 조회
-
-  - (BACKLOG) [일반 사용자 계정이 해당 스키마에 권한이 있음에도 불구하고 노트북에서 생성한 테이블이 보이지 않음](http://jira.nexrcorp.com/browse/CON-3896)
 
 - HDFS 파일을 스파크 테이블로 등록
 
@@ -63,8 +61,11 @@
 ### 완료
 
 #### 테이블 매니저
+- 로컬에서 HDFS에 파일 업로드(200M 제한)
+
+  - (BACKLOG) [동일한 이름의 파일을 업로드할 때 엎어치기 됨](http://jira.nexrcorp.com/browse/CON-3898)
 
 #### 환경설정 및 현황
-- (리뷰 진행 중)JDBC 저장소 접속 테스트
+- JDBC 저장소 접속 테스트
 
   - (BACKLOG) [존재하지 않는 스키마를 입력해도 접속가능함](http://jira.nexrcorp.com/browse/CON-3959)
