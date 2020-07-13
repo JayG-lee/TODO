@@ -6,13 +6,6 @@
 
 #### 테이블 매니저
 
-- (리뷰 진행 중)테이블 목록 조회
-
-  - (BACKLOG) [일반 사용자 계정이 해당 스키마에 권한이 있음에도 불구하고 노트북에서 생성한 테이블이 보이지 않음](http://jira.nexrcorp.com/browse/CON-3896)
-  
-- (DE 팀에 요청) 테이블 코멘트 등록
-  - (BACKLOG) [한글 깨짐](http://jira.nexrcorp.com/browse/CON-3826)
-
 
 
 #### 환경설정 및 현황
@@ -21,18 +14,8 @@
 
 #### 테이블 매니저
 
-- HDFS 파일을 스파크 테이블로 등록
-
-  - (BACKLOG) [데이터, 테이블코멘트, 컬럼코멘트 한글깨짐](http://jira.nexrcorp.com/browse/CON-3826)
-
 - HDFS CSV 파일을 스파크 테이블로 등록
   - (BACKLOG) [csv로 스파크 테이블 생성시, 첫 행에 null이 포함된 컬럼은 제외됨 테이블매니저, 대시보드 등에서는 해당 컬럼이 나오지 않음 노트북에서 해당 컬럼 조회하면 수행됨 / 한글데이터 깨짐](http://jira.nexrcorp.com/browse/CON-3901)
-- KAFKA XSV 데이터의 스파크 테이블 등록
-
-  - (BACKLOG) [virtual view 테이블이 사용자에게 보이지 않음 managed 임시테이블만 보임 admin 계정은 보임](http://jira.nexrcorp.com/browse/CON-3905)
-
-- KAFKA JSON 데이터의 스파크 테이블 등록
-  - (BACKLOG) [virtual view 테이블이 사용자에게 보이지 않음 managed 임시테이블만 보임 admin 계정은 보임](http://jira.nexrcorp.com/browse/CON-3905)
 
 #### 환경설정 및 현황
 
@@ -65,7 +48,25 @@
 #### 테이블 매니저
 - 로컬에서 HDFS에 파일 업로드(200M 제한)
 
-  - (BACKLOG) [동일한 이름의 파일을 업로드할 때 엎어치기 됨](http://jira.nexrcorp.com/browse/CON-3898)
+  - [동일한 이름의 파일을 업로드할 때 엎어치기 됨](http://jira.nexrcorp.com/browse/CON-3898)
+  
+- 테이블 목록 조회
+
+  - [일반 사용자 계정이 해당 스키마에 권한이 있음에도 불구하고 노트북에서 생성한 테이블이 보이지 않음](http://jira.nexrcorp.com/browse/CON-3896)
+  
+- 테이블 코멘트 등록
+  - [한글 깨짐](http://jira.nexrcorp.com/browse/CON-3826)
+  
+- HDFS 파일을 스파크 테이블로 등록
+
+  - [데이터, 테이블코멘트, 컬럼코멘트 한글깨짐](http://jira.nexrcorp.com/browse/CON-3826)
+  
+- KAFKA XSV 데이터의 스파크 테이블 등록
+
+  - [virtual view 테이블이 사용자에게 보이지 않음 managed 임시테이블만 보임 admin 계정은 보임](http://jira.nexrcorp.com/browse/CON-3905)
+
+- KAFKA JSON 데이터의 스파크 테이블 등록
+  - [virtual view 테이블이 사용자에게 보이지 않음 managed 임시테이블만 보임 admin 계정은 보임](http://jira.nexrcorp.com/browse/CON-3905)
 
 #### 환경설정 및 현황
 - JDBC 저장소 접속 테스트
